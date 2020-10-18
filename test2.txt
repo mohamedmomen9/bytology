@@ -1,0 +1,17 @@
+Questions 
+- what is happened around 10:30 that may caused this issue
+
+assumption
+- assume that the problem happened only in the master branch
+- assume I have access to fix the investigate the issue reason
+- assume the queue is stucked till now
+
+Actions
+I will do this steps to investigate the issue
+- check the server log
+- check for the integration errors by checking out the branch and run it from local machine
+- check for missing confguration requerments
+- check for last changes around 10:30 on the master branch
+- check for data issues
+- check the system log for server related issues such as memory or time 
+Then if the issue could be solved without could change I will restart the queue else rollback the changes caused the issue and report the issue found.
